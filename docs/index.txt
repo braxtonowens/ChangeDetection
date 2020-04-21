@@ -1,6 +1,5 @@
-M-x org-mode
 -*- mode: org -*-
-
+#+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
 #+TITLE:Change Detection Using Machine Learning
 #+DESCRIPITION: Project details
 
@@ -15,7 +14,7 @@ M-x org-mode
 
 ** Done today
 #+begin_info
-\bull Created GitHub
+\bull Created GitHub'\\'
 \bull Created progress/prep document
 \bull Finished intern orientation and necessary documents.
 \bull Created acount with USGS and downloaded data
