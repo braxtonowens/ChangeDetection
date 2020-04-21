@@ -14,7 +14,7 @@
 
 ** Done today
 #+begin_info
-\bull Created GitHub'\\'
+\bull Created GitHub
 \bull Created progress/prep document
 \bull Finished intern orientation and necessary documents.
 \bull Created acount with USGS and downloaded data
@@ -34,4 +34,6 @@
 \bullet Add Brain and Ryan as contributers
 \bullet Hopefully switch over to confluence and get VDI set up.
 \bull More research into what has been done regarding U-nets with complex images
+\bull More research into Change Detection Dataset
+\bull Get more of an idea as to what has been done regarding this project
 #+end_note
