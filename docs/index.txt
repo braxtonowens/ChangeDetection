@@ -1,5 +1,5 @@
 -*- mode: org -*-
-#+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+OPTIONS: H:4 num:nil toc:nil \n:t @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
 #+TITLE:Change Detection Using Machine Learning
 #+DESCRIPITION: Project details
 
@@ -8,7 +8,6 @@
 ** Initial Questions
 #+BEGIN_INFO
 \bullet What is QI data and how can it help us?
-
 \bull How will having mulitspectral images assist in change detection?
 
 \bull Am I stupid for not knowing where the x8 comes from in 10980x10980x8?
