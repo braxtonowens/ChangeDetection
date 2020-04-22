@@ -7,6 +7,8 @@
 * Useful Links
 ** [[https://github.com/wenhwu/awesome-remote-sensing-change-detection][List of datasets, codes, papers and constests related to remote sensing change detection]]
 
+* ML Methods to become familiar with
+** TODO LSTM blocks
 
 * April 21, 2020
 ** Initial Questions
@@ -60,3 +62,10 @@
 
 * April 22, 2020
 ** Questions
+#+begin_info
+\bull CUDA issues
+#+end_info
+** Discussion
+#+begin_info
+\bull Found GitHub [[https://github.com/mpapadomanolaki/UNetLSTM][code]] that detects urban changes in sentinel-2 data (pytorch) (Uses GPU through CUDA platform)
+#+end_info
