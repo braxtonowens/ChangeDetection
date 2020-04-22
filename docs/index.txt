@@ -1,7 +1,11 @@
 -*- mode: org -*-
-#+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+OPTIONS: H:4 num:nil toc:1 \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
 #+TITLE:Change Detection Using Machine Learning
 #+DESCRIPITION: Project details
+
+
+* Useful Links
+** [[https://github.com/wenhwu/awesome-remote-sensing-change-detection][List of datasets, codes, papers and constests related to remote sensing change detection]]
 
 
 * April 21, 2020
@@ -52,3 +56,7 @@
 
 \bull Get more of an idea as to what has already been done regarding this project
 #+end_note
+
+
+* April 22, 2020
+** Questions
