@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-04-23 Thu 15:48 -->
+<!-- 2020-04-23 Thu 15:50 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Change Detection Using Machine Learning</title>
@@ -239,28 +239,6 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
@@ -269,77 +247,44 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org9eff5d3">1. Useful Links</a>
-<ul>
-<li><a href="#org21c2627">1.1. List of datasets, codes, papers and constests related to remote sensing change detection</a></li>
-</ul>
-</li>
-<li><a href="#orgde00d68">2. ML Methods to become familiar with</a>
-<ul>
-<li><a href="#org941f0a4">2.1. <span class="todo TODO">TODO</span> LSTM blocks</a></li>
-</ul>
-</li>
-<li><a href="#org5f15951">3. April 21, 2020</a>
-<ul>
-<li><a href="#org75a529c">3.1. Initial Questions</a></li>
-<li><a href="#org8f6aa81">3.2. Done today</a></li>
-<li><a href="#orgceb3077">3.3. Understanding The Data</a>
-<ul>
-<li><a href="#orga1cb7b1">3.3.1. Sentinal-2 data</a></li>
-</ul>
-</li>
-<li><a href="#org2e95783">3.4. TODO</a></li>
-</ul>
-</li>
-<li><a href="#org00ab4a1">4. April 22, 2020</a>
-<ul>
-<li><a href="#orgc22ae73">4.1. Questions</a></li>
-<li><a href="#org0f745ce">4.2. Discussion</a></li>
-</ul>
-</li>
-<li><a href="#org78791ef">5. April 23, 2020</a>
-<ul>
-<li><a href="#org74798ea">5.1. Unet by zhixuhao</a>
-<ul>
-<li><a href="#orgc254ddc">5.1.1. Results</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="#orgfc22f1b">Useful Links</a></li>
+<li><a href="#org3e52f71">ML Methods to become familiar with</a></li>
+<li><a href="#org7608485">April 21, 2020</a></li>
+<li><a href="#org18a27cb">April 22, 2020</a></li>
+<li><a href="#org96c895e">April 23, 2020</a></li>
 </ul>
 </div>
 </div>
 <p>
 -<b>- mode: org -</b>-
-;#+OPTIONS: H:4 num:nil toc:1 \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
 </p>
 
 
-<div id="outline-container-org9eff5d3" class="outline-2">
-<h2 id="org9eff5d3"><span class="section-number-2">1</span> Useful Links</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-orgfc22f1b" class="outline-2">
+<h2 id="orgfc22f1b">Useful Links</h2>
+<div class="outline-text-2" id="text-orgfc22f1b">
 </div>
-<div id="outline-container-org21c2627" class="outline-3">
-<h3 id="org21c2627"><span class="section-number-3">1.1</span> <a href="https://github.com/wenhwu/awesome-remote-sensing-change-detection">List of datasets, codes, papers and constests related to remote sensing change detection</a></h3>
-</div>
-</div>
-
-<div id="outline-container-orgde00d68" class="outline-2">
-<h2 id="orgde00d68"><span class="section-number-2">2</span> ML Methods to become familiar with</h2>
-<div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-org941f0a4" class="outline-3">
-<h3 id="org941f0a4"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> LSTM blocks</h3>
+<div id="outline-container-org5fa2a81" class="outline-3">
+<h3 id="org5fa2a81"><a href="https://github.com/wenhwu/awesome-remote-sensing-change-detection">List of datasets, codes, papers and constests related to remote sensing change detection</a></h3>
 </div>
 </div>
 
-<div id="outline-container-org5f15951" class="outline-2">
-<h2 id="org5f15951"><span class="section-number-2">3</span> April 21, 2020</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org3e52f71" class="outline-2">
+<h2 id="org3e52f71">ML Methods to become familiar with</h2>
+<div class="outline-text-2" id="text-org3e52f71">
 </div>
-<div id="outline-container-org75a529c" class="outline-3">
-<h3 id="org75a529c"><span class="section-number-3">3.1</span> Initial Questions</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-orgc7d49b2" class="outline-3">
+<h3 id="orgc7d49b2"><span class="todo TODO">TODO</span> LSTM blocks</h3>
+</div>
+</div>
+
+<div id="outline-container-org7608485" class="outline-2">
+<h2 id="org7608485">April 21, 2020</h2>
+<div class="outline-text-2" id="text-org7608485">
+</div>
+<div id="outline-container-org0cb42c4" class="outline-3">
+<h3 id="org0cb42c4">Initial Questions</h3>
+<div class="outline-text-3" id="text-org0cb42c4">
 <div class="INFO">
 <p>
 &bull; What is QI data and how can it help us?
@@ -357,9 +302,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org8f6aa81" class="outline-3">
-<h3 id="org8f6aa81"><span class="section-number-3">3.2</span> Done today</h3>
-<div class="outline-text-3" id="text-3-2">
+<div id="outline-container-orgb1c4692" class="outline-3">
+<h3 id="orgb1c4692">Done today</h3>
+<div class="outline-text-3" id="text-orgb1c4692">
 <div class="info">
 <p>
 &bull; Created GitHub
@@ -384,13 +329,13 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-orgceb3077" class="outline-3">
-<h3 id="orgceb3077"><span class="section-number-3">3.3</span> Understanding The Data</h3>
-<div class="outline-text-3" id="text-3-3">
+<div id="outline-container-orgb2f67f5" class="outline-3">
+<h3 id="orgb2f67f5">Understanding The Data</h3>
+<div class="outline-text-3" id="text-orgb2f67f5">
 </div>
-<div id="outline-container-orga1cb7b1" class="outline-4">
-<h4 id="orga1cb7b1"><span class="section-number-4">3.3.1</span> Sentinal-2 data</h4>
-<div class="outline-text-4" id="text-3-3-1">
+<div id="outline-container-org9cfaeaf" class="outline-4">
+<h4 id="org9cfaeaf">Sentinal-2 data</h4>
+<div class="outline-text-4" id="text-org9cfaeaf">
 <div class="INFO">
 <p>
 &bull; 650MB file size.
@@ -416,9 +361,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org2e95783" class="outline-3">
-<h3 id="org2e95783"><span class="section-number-3">3.4</span> TODO</h3>
-<div class="outline-text-3" id="text-3-4">
+<div id="outline-container-orgb5f1d14" class="outline-3">
+<h3 id="orgb5f1d14">TODO</h3>
+<div class="outline-text-3" id="text-orgb5f1d14">
 <div class="note">
 <p>
 &bull; Add Brain and Ryan as contributers
@@ -446,13 +391,13 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-org00ab4a1" class="outline-2">
-<h2 id="org00ab4a1"><span class="section-number-2">4</span> April 22, 2020</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-org18a27cb" class="outline-2">
+<h2 id="org18a27cb">April 22, 2020</h2>
+<div class="outline-text-2" id="text-org18a27cb">
 </div>
-<div id="outline-container-orgc22ae73" class="outline-3">
-<h3 id="orgc22ae73"><span class="section-number-3">4.1</span> Questions</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-org3c2ec03" class="outline-3">
+<h3 id="org3c2ec03">Questions</h3>
+<div class="outline-text-3" id="text-org3c2ec03">
 <div class="info">
 <p>
 &bull; CUDA issues
@@ -461,9 +406,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org0f745ce" class="outline-3">
-<h3 id="org0f745ce"><span class="section-number-3">4.2</span> Discussion</h3>
-<div class="outline-text-3" id="text-4-2">
+<div id="outline-container-orge07190a" class="outline-3">
+<h3 id="orge07190a">Discussion</h3>
+<div class="outline-text-3" id="text-orge07190a">
 <div class="info">
 <p>
 &bull; Found GitHub <a href="https://github.com/mpapadomanolaki/UNetLSTM">code</a> that detects urban changes in sentinel-2 data (pytorch) (Uses GPU through CUDA platform)
@@ -474,13 +419,13 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org78791ef" class="outline-2">
-<h2 id="org78791ef"><span class="section-number-2">5</span> April 23, 2020</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-org96c895e" class="outline-2">
+<h2 id="org96c895e">April 23, 2020</h2>
+<div class="outline-text-2" id="text-org96c895e">
 </div>
-<div id="outline-container-org74798ea" class="outline-3">
-<h3 id="org74798ea"><span class="section-number-3">5.1</span> Unet by zhixuhao</h3>
-<div class="outline-text-3" id="text-5-1">
+<div id="outline-container-org5b2b32e" class="outline-3">
+<h3 id="org5b2b32e">Unet by zhixuhao</h3>
+<div class="outline-text-3" id="text-org5b2b32e">
 <div class="info">
 <p>
 &bull; Fully Implemetned into colab using google's GPU
@@ -489,9 +434,9 @@ for the JavaScript code in this tag.
 
 </div>
 </div>
-<div id="outline-container-orgc254ddc" class="outline-4">
-<h4 id="orgc254ddc"><span class="section-number-4">5.1.1</span> Results</h4>
-<div class="outline-text-4" id="text-5-1-1">
+<div id="outline-container-orgb8b9e5d" class="outline-4">
+<h4 id="orgb8b9e5d">Results</h4>
+<div class="outline-text-4" id="text-orgb8b9e5d">
 <div class="info">
 <p>
 &bull; GPU train time: 996 seconds
@@ -506,14 +451,14 @@ for the JavaScript code in this tag.
 </p>
 
 
-<div id="org503321a" class="figure">
+<div id="org62231c7" class="figure">
 <p><img src="./0.png" alt="0.png" width="200px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Actual 0</p>
 </div>
 
 
-<div id="org830f50c" class="figure">
+<div id="org1453e4f" class="figure">
 <p><img src="./0_predict.png" alt="0_predict.png" width="200px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Predicted 0</p>
@@ -521,14 +466,14 @@ for the JavaScript code in this tag.
 
 
 
-<div id="orga6249e6" class="figure">
+<div id="org3ce3f0f" class="figure">
 <p><img src="./0.png" alt="0.png" width="200px" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Actual 1</p>
 </div>
 
 
-<div id="orgb2334d6" class="figure">
+<div id="org8f226fd" class="figure">
 <p><img src="./0_predict.png" alt="0_predict.png" width="200px" />
 </p>
 <p><span class="figure-number">Figure 4: </span>Predicted 1</p>
@@ -542,7 +487,7 @@ for the JavaScript code in this tag.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Braxton</p>
-<p class="date">Created: 2020-04-23 Thu 15:48</p>
+<p class="date">Created: 2020-04-23 Thu 15:50</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
