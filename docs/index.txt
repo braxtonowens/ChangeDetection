@@ -72,44 +72,42 @@
 \bull Found GitHub [[https://github.com/mpapadomanolaki/UNetLSTM][code]] that detects urban changes in sentinel-2 data (pytorch) (Uses GPU through CUDA platform)
 #+end_info
 
-* April 23, 2020
-** Unet by zhixuhao
-#+begin_info
-\bullet Fully Implemetned into colab using google's GPU
-[[https://colab.research.google.com/drive/13xPzNxzljETvH4ZwZE9nMV1bWY4G8iBd#scrollTo=UWuKplmBHX7a][link to google colab]] - You might not have permissions to this
-#+end_info
-*** Results
-#+begin_info
-\bull GPU train time: 996 seconds
+# * April 23, 2020
+# ** Unet by zhixuhao
+# #+begin_info
+# \bullet Fully Implemetned into colab using google's GPU
+# [[https://colab.research.google.com/drive/13xPzNxzljETvH4ZwZE9nMV1bWY4G8iBd#scrollTo=UWuKplmBHX7a][link to google colab]] - You might not have permissions to this
+# #+end_info
+# *** Results
+# #+begin_info
+# \bull GPU train time: 996 seconds
 
-\bull CPU train time: Way too long
+# \bull CPU train time: Way too long
 
-\bull TPU train time: each epoch \approx 7 hours
+# \bull TPU train time: each epoch \approx 7 hours
 
-#+caption: Actual 0
-#+name: test_image
-#+attr_html: :width 200px
-#+attr_latex: :width 200px
-[[./0.png]]
+# #+caption: Actual 0
+# #+name: test_image
+# #+attr_html: :width 200px
+# #+attr_latex: :width 200px
+# [[.0.png]]
 
-#+caption: Predicted 0
-#+name: test_image
-#+attr_html: :width 200px
-#+attr_latex: :width 200px
-[[./0_predict.png]]
-
-
-#+caption: Actual 1
-#+name: test_image
-#+attr_html: :width 200px
-#+attr_latex: :width 200px
-[[./0.png]]
-
-#+caption: Predicted 1
-#+name: test_image
-#+attr_html: :width 200px
-#+attr_latex: :width 200px
-[[./0_predict.png]]
+# #+caption: Predicted 0
+# #+name: test_image
+# #+attr_html: :width 200px
+# #+attr_latex: :width 200px
+# [[.0_predict.png]]
 
 
-#+end_info
+# #+caption: Actual 1
+# #+name: test_image
+# #+attr_html: :width 200px
+# #+attr_latex: :width 200px
+# [[.0.png]]
+
+# #+caption: Predicted 1
+# #+name: test_image
+# #+attr_html: :width 200px
+# #+attr_latex: :width 200px
+# [[.0_predict.png]]
+# #+end_info
