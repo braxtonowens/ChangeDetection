@@ -85,19 +85,22 @@
 \bull CPU train time: Way too long
 
 \bull TPU train time: each epoch \approx 7 hours
+#+end_info
 
-#+caption: Actual 0
-#+name: test_image
-#+attr_html: :width 200px
-#+attr_latex: :width 200px
-# [[.0.png]]
+
+
+# #+caption: Actual 0
+
+# #+name: test_image
+# #+attr_html: :width 200px
+# #+attr_latex: :width 200px
+# # [[.0.png]]
 
 # #+caption: Predicted 0
 # #+name: test_image
 # #+attr_html: :width 200px
 # #+attr_latex: :width 200px
 # [[.0_predict.png]]
-
 
 # #+caption: Actual 1
 # #+name: test_image
