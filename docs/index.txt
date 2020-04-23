@@ -1,5 +1,5 @@
 -*- mode: org -*-
-#+OPTIONS: H:4 num:nil toc:1 \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+OPTIONS: /n:t
 #+TITLE:Change Detection Using Machine Learning
 #+DESCRIPITION: Project details
 
