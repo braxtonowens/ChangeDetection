@@ -85,6 +85,8 @@
 \bull CPU train time: Way too long
 
 \bull TPU train time: each epoch \approx 7 hours
+
+\bull Just added this bullet!!
 #+end_info
 
 #+caption: Actual 0
