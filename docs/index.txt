@@ -1,7 +1,9 @@
 -*- mode: org -*-
-#+OPTIONS: /n:t
 #+TITLE:Change Detection Using Machine Learning
 #+DESCRIPITION: Project details
+#+language: en
+#+options: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+startup: entitiespretty showeverything
 
 
 * Useful Links
