@@ -1,0 +1,16 @@
+-*- mode: org -*-
+* Change Detection
+
+** Abstract
+#+begin_info
+Use U-net, a fully convelutional neural network to dectect changes in setinel-2
+temporal data.
+#+end_info
+
+** Methodology
+*** Google Colab
+#+begin_info
+Google Colab is a platform similar to jupyter notebook that allows the user to access
+a cloud system to run code. For our purposes of running a neural network we are specifically
+interested in using Google's GPU that allows us to run 12 hour sessions for free.
+#+end_info

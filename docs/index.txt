@@ -111,6 +111,38 @@
 #+attr_latex: :width 200px
 [[./0_predict.png]]
 
+#+end_info
 
+* April 24, 2020
+** TODO Notes
+#+begin_info
+I am feeling more confortable with tensorflow and keras. They have great documentation
+on their built-in functions. I feel the best for me to learn is reading through the code
+of fully functional NNs then reproducing them with moinor changes.
+
+To answer Ryan's question The two training images are pngs with size 1.2MB 785x799
+the masks are also pngs of dementions 785x799 but only around 11.0kB
+
+zhinxuhao uses images that are pngs of dementions 512x512 and size of around 215kB and labels of
+same demention size 15kB.
+
+I feel that my next step is going to be reproducing zhixuhao's u-net with the onera dataset.
+The onera dataset however comes with two images for every mask. So I am going to need to disect
+the code and understand what changes I need to make so that we can change this mask prediction problem
+to now input two images insted of the one to make it a change detection problem. This might take a sec.
+
+This actually is almost impossible without a large change to the architecture of the neural net. I am
+now looking at the Siamese network that has a change detection architecture. Good reaserch to do would be
+looking into the diffrences between VGG16 and u-net maybe it would be cool to use u-net inseted of VGG16
+
+Also a little note here for me to check out dice metric and IOU metric.
+#+end_info
+** Notes about code
+#+begin_info
+\bull In Siamese-neural-network-for-change-detection they seem to do some sort of concatination to create
+one large feature map - slide 9
+[[https://github.com/vbhavank/Siamese-neural-network-for-change-detection][Link to Siamese NN code]]
+[[https://sigport.org/sites/default/files/docs/Siamese_Network_RIT_Nov2018_0.pdf][Link to slideshow explaining Siamese NN]]
+\bull I think it would be a good idea to talk about slide 8(pre-trained on ImageNet?)(why pre-train it?)
 
 #+end_info
