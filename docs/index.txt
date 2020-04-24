@@ -116,9 +116,6 @@
 * April 24, 2020
 ** TODO Notes
 #+begin_info
-I am feeling more confortable with tensorflow and keras. They have great documentation
-on their built-in functions. I feel the best for me to learn is reading through the code
-of fully functional NNs then reproducing them with moinor changes.
 
 To answer Ryan's question The two training images are pngs with size 1.2MB 785x799
 the masks are also pngs of dementions 785x799 but only around 11.0kB
