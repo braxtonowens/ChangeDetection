@@ -138,8 +138,11 @@ Also a little note here for me to check out dice metric and IOU metric.
 #+begin_info
 \bull In Siamese-neural-network-for-change-detection they seem to do some sort of concatination to create
 one large feature map - slide 9
+
 [[https://github.com/vbhavank/Siamese-neural-network-for-change-detection][Link to Siamese NN code]]
+
 [[https://sigport.org/sites/default/files/docs/Siamese_Network_RIT_Nov2018_0.pdf][Link to slideshow explaining Siamese NN]]
+
 \bull I think it would be a good idea to talk about slide 8(pre-trained on ImageNet?)(why pre-train it?)
 
 #+end_info
