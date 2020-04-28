@@ -86,6 +86,10 @@
 
 \bull TPU train time: each epoch \approx 7 hours
 
+TODO \bull Find details of data for Brian
+\bull Te best answer Brian's question, we are taining 30 images where our
+steps _per _epoch = 2000
+
 
 #+caption: Actual 0
 #+name: test_image
@@ -145,4 +149,11 @@ one large feature map - slide 9
 
 \bull I think it would be a good idea to talk about slide 8(pre-trained on ImageNet?)(why pre-train it?)
 
+#+end_info
+
+* April 27,2020
+** Colab resource limits
+#+begin_info
+[[https://research.google.com/colaboratory/faq.html#resource-limits][Colab resource limits]]
+\bull look into details about colab pro
 #+end_info
