@@ -193,3 +193,15 @@ one large feature map - slide 9
 What if we did a unet for both of the images(this is assuming we had maskes for our data)
 then just subracted the two masks? Would this not leave us with a mask of the changes?
 #+end_info
+
+
+* April 29, 2020
+** Siamese Neural Networks
+#+begin_info
+The Siamese Neural Network seems to be popular with One-Shot-Learning. It is a farely straight-forward NN that inputs
+two images and runs both of them throught a CNN then flattens it and runs is through a dense nn with AF = Sigmoid.
+It then calculates the abs() of the diffrence and uses that in one more Dense to classify it as two diffrent images
+or the same image. I spent a few hours changing this algorithm to insted build an image out of the absolute diffrence
+using a Unet architecture. This might not be possible but it is woth a try and I learned a lot in the process about U-nets and Siamese nets
+[[https://colab.research.google.com/drive/1D2S5uOzTVreKS0yXBAVSxKfH-KjUHEf3?usp=sharing][Here is a link to this unfinished NN]]
+#+end_info
