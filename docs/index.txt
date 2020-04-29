@@ -157,3 +157,39 @@ one large feature map - slide 9
 [[https://research.google.com/colaboratory/faq.html#resource-limits][Colab resource limits]]
 \bull look into details about colab pro
 #+end_info
+
+* April 28, 2020
+** The universal Workflow of machine learning
+*** Defining the problem and assembling a dataset
+#+begin_info
+
+#+end_info
+*** Choosing a measure of success
+#+begin_info
+
+#+end_info
+*** Deciding on a evaluation protocol
+#+begin_info
+
+#+end_info
+*** Preparing your data
+#+begin_info
+
+#+end_info
+*** Developing a model that does better than  a baseline
+#+begin_info
+
+#+end_info
+*** Scaling up: developing a model that overfits
+#+begin_info
+
+#+end_info
+*** Regularizing your model and tuning your hyperparameters
+#+begin_info
+
+#+end_info
+** Random idea
+#+begin_info
+What if we did a unet for both of the images(this is assuming we had maskes for our data)
+then just subracted the two masks? Would this not leave us with a mask of the changes?
+#+end_info
