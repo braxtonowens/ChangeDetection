@@ -205,3 +205,9 @@ or the same image. I spent a few hours changing this algorithm to insted build a
 using a Unet architecture. This might not be possible but it is woth a try and I learned a lot in the process about U-nets and Siamese nets
 [[https://colab.research.google.com/drive/1D2S5uOzTVreKS0yXBAVSxKfH-KjUHEf3?usp=sharing][Here is a link to this unfinished NN]]
 #+end_info
+** Further Research
+#+begin_info
+\bull Dual attentive fully convolutional siamese networks for change detection of high-resolution satellite images
+\bull I think this is what we are looking for. I will spend some time tomorrow looking over this code and paper to see
+how they use the siamese network to not only find the L2 distance and create and image from the distance.
+#+end_info
