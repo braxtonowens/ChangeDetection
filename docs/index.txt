@@ -211,3 +211,70 @@ using a Unet architecture. This might not be possible but it is woth a try and I
 \bull I think this is what we are looking for. I will spend some time tomorrow looking over this code and paper to see
 how they use the siamese network to not only find the L2 distance and create and image from the distance.
 #+end_info
+
+
+* May 4, 2020
+** Onera Dataset
+#+begin_info
+Data can be downloaded [[https://rcdaudt.github.io/oscd/][Here]]
+There are three zip files that you can download, Images(512MB), Train labels(137kB), and Test labels(83kB).
+
+The Images zip file contains images from 24 different locations around the world. Each location has five files.
+Three of wich I belive we are particualy interested in. two of the files are the 13 diffrent bands for the image at T_1
+and at T_2 Here is an example of a few. These are bands 1-5 of T_1 and T_2.
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./B01a.tif]]
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./B02a.tif]]
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./B03a.tif]]
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./B04a.tif]]
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./B05a.tif]]
+
+
+As you can see, These are hardly visible. But this should hopfuly be no issue for the computer
+
+
+The third file contains a png of image at T_1 and T_2 as shown
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./img1.png]]
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./img2.png]]
+
+The other two zip files (Train Labels and Test Label) contain two iamges of the change mask both in both .tif and .png format.
+
+These images look like this.
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./abudhabi-cm.tif]]
+
+This could be a completely black image and I would not know the difference. The .tif is seen above.
+
+#+attr_html: :width 200px
+#+attr_latex: :width 200px
+[[./cm.png]]
+
+
+It is important to note that for this particular location, all imagaes are 785x799
+
+
+
+
+
+#+end_info
