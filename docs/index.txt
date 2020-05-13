@@ -272,9 +272,9 @@ This could be a completely black image and I would not know the difference. The 
 
 
 It is important to note that for this particular location, all imagaes are 785x799
-
-
-
-
-
 #+end_info
+
+
+
+* May 12, 2020
+** [[https://colab.research.google.com/drive/1nvf002MOS669Pj_4NUbus-eyi0Rd3taW?usp=sharing][Here is a Link to a colab document processing the tiff images]]
