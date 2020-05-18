@@ -313,3 +313,7 @@ I believe I can crop this image usign a bounding box from gdal. I believe the fu
 
 [[https://gis.stackexchange.com/questions/214489/handle-jp2-sentinel-data][Handle .p2 Sentinel data]]
 #+end_info
+
+
+* May 16, 2020
+** [[https://colab.research.google.com/drive/1JYZpoj0ubWiZsZkE_wAxJH3YH0nUQI7K?usp=sharing][Recreating the Onera Dataset]]
