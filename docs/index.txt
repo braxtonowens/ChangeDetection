@@ -317,3 +317,48 @@ I believe I can crop this image usign a bounding box from gdal. I believe the fu
 
 * May 16, 2020
 ** [[https://colab.research.google.com/drive/1JYZpoj0ubWiZsZkE_wAxJH3YH0nUQI7K?usp=sharing][Recreating the Onera Dataset]]
+
+
+* May 21, 2020 (initial lookover)
+** Siamese-neural-network-for-change-detection
+#+begin_info
+\bull Keras (Siamese CNN)
+
+\bull computaionaly generated dataset
+#+end_info
+** FCSN-for-ChangeDectection
+#+begin_info
+\bull Onera dataset
+
+\bull pytorch model (Fully Convolutional Siamese Network)
+
+\bull creats mini images from the pngs of the onera dataset
+
+\bull data prosessing provided
+
+#+end_info
+** End-to-end-CD-for-VHR-satellite
+#+begin_info
+\bull 7 pairs of images with a size of 1900 X 1000
+
+\bull keras model (unet++)
+
+\bull only the model is provided, no data preprossing
+
+#+end_info
+** ChangeDetectionBaseline
+#+begin_info
+\bull Keras Model(Siamese CNN)
+
+\bull Lots of documentation, a bit messy, I will deticate more time to this one tommorow.
+
+#+end_info
+** chip-segmentaion
+#+begin_info
+\bull Pytorch (RNN)
+
+\bull This one also has a lot of parts, It will take me a sec to go over this.
+
+\bull Onera dataset
+
+#+end_info
